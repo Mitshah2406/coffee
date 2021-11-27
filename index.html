@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ff1bb2f217.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <navbar class="navbar">
+        <i class="fas fa-bars" id="hamburger"></i>
+        <a href="#" class="logo">coffee <i class="fas fa-mug-hot"></i></a>
+        <div class="menu-wrapper">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#book">book</a>
+        </div>
+        <div class="nav-btn-wrapper">
+            <a class="btn book-table-btn">book a table</a>
+        </div>
+    </navbar>
+
+<!-- ----------home section starts----------- -->
+<section class="home" id="home">
+    <div class="row">
+        <div class="content fade-in hidden">
+            <h3>fresh coffee in the morning</h3>
+            <a href="#" class="btn">buy one now</a>
+        </div>
+        <div class="image">
+            <img src="image/home-img-1.png" alt="home img" class="home-main-img">
+        </div>
+    </div> 
+        <div class="image-slider">
+            <img src="image/home-img-1.png" alt="" class="home-small-img">
+            <img src="image/home-img-2.png" alt="" class="home-small-img">
+            <img src="image/home-img-3.png" alt="" class="home-small-img">
+    </div>
+</section>
+<!-- ----------home section ends----------- -->
+<!-- ----------about section starts----------- -->
+<section class="about" id="about">
+    <h1 class="heading fade-in hidden">about us<span>why choose us</span></h1>
+    <div class="row">
+        <div class="image fade-in-left hidden">
+            <img src="image/about-img.png" alt="image">
+        </div>
+        <div class="content fade-in-right hidden">
+            <h3 class="title">
+                what makes our coffee special!
+            </h3>
+            <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+             <a href="#" class="btn">read more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="image/about-icon-1.png" alt="">
+                    <h3>quality coffee</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/about-icon-2.png" alt="">
+                    <h3>our branches</h3>
+                </div>
+                <div class="icons">
+                    <img src="image/about-icon-3.png" alt="">
+                    <h3>free delivery</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ----------about section ends----------- -->
+
+<!-- ----------menu section starts----------- -->
+<section class="menu" id="menu">
+    <h1 class="heading fade-in hidden">our menu<span>our popular menu</span></h1>
+    <div class="box-container">
+        <a href="#" class="box fade-in-left hidden">
+            <img src="image/menu-1.png" alt="">
+            <div class="content">
+                <h3>Cappuccino</h3>
+                <p>Cappuccino is a latte made with more foam than steamed milk, with a sprinkle of cocoa powder.</p>
+                <span>₹359</span>
+            </div>
+        </a>
+        <a href="#" class="box fade-in-right hidden">
+            <img src="image/menu-2.png" alt="">
+            <div class="content">
+                <h3>Mocha</h3>
+                <p>For all you chocolate lovers out there, you’ll fall in love with a mocha</p>
+                <span>₹199</span>
+            </div>
+        </a>
+        <a href="#" class="box fade-in-left hidden">
+            <img src="image/menu-3.png" alt="">
+            <div class="content">
+                <h3>Irish</h3>
+               <p>Irish coffee consists of black coffee, whiskey and sugar, topped with whipped cream.</p>
+                <span>₹249</span>
+            </div>
+        </a>
+        <a href="#" class="box fade-in-right">
+            <img src="image/menu-4.png" alt="">
+            <div class="content">
+                <h3>Latte</h3>
+                <p>As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk.</p>
+                <span>₹299</span>
+            </div>
+        </a>
+        <a href="#" class="box fade-in-left hidden">
+            <img src="image/menu-5.png" alt="">
+            <div class="content">
+                <h3>Ristretto</h3>
+                <p>Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor</p>
+                <span>₹199</span>
+            </div>
+        </a>
+        <a href="#" class="box fade-in-right hidden">
+            <img src="image/menu-6.png" alt="">
+            <div class="content">
+                <h3>Americano</h3>
+               <p>With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water.</p>
+                <span>₹159</span>
+            </div>
+        </a>
+    </div>
+</section>
+<!-- ----------menu section ends----------- -->
+
+<!-- ----------reviews section start----------- -->
+<section class="reviews" id="review">
+    <h1 class="heading fade-in hidden">reviews<span>what they say</span></h1>
+    <div class="swiper reviews-slider fade-in hidden">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left inv-comma"></i>
+                <i class="fas fa-quote-right inv-comma"></i>
+                <img src="image/pic-1.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+               <p>It’s ideal for enjoying mid-morning or during a relaxing afternoon.</p><h3>James</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left inv-comma"></i>
+                <i class="fas fa-quote-right inv-comma"></i>
+                <img src="image/pic-2.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               <p>Blends contain beans from at least two regions or countries.</p><h3>Mary</h3>
+                <span>highly satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left inv-comma"></i>
+                <i class="fas fa-quote-right inv-comma"></i>
+                <img src="image/pic-3.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>When it comes to coffee pods it's all about speed and taste</p> <h3>William</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left inv-comma"></i>
+                <i class="fas fa-quote-right inv-comma"></i>
+                <img src="image/pic-4.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>this 100% Kona coffee is smooth and delicious. I highly recommend it.</p>
+                <h3>Michelle</h3>
+                <span>impressed client</span>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- ----------reviews section ends----------- -->
+
+<!-- ----------booking section starts----------- -->
+<section class="book" id="book">
+    <h1 class="heading fade-in hidden">bookings<span>reserve a table</span></h1>
+    <form action="#" class="form fade-in hidden">
+        <input type="text" name="name" class="box" placeholder="Enter Your Name">
+        <input type="email" name="email" class="box" placeholder="Enter Your E-Mail">
+        <input type="text" name="number" class="box" placeholder="Enter Your Number">
+        <textarea name="msg" class="box" placeholder="Your Message..."></textarea>
+        <a href="#" class="btn">send message</a>
+    </form>
+</section>
+<!-- ----------booking section ends----------- -->
+
+ <!-- -------------footer section start-------------------------------- -->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> india</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> united states</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> austrailia</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> singapore</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> dubai</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"><i class="fas fa-arrow-right"></i> Home</a>
+            <a href="#vehicles"><i class="fas fa-arrow-right"></i> vehicles</a>
+            <a href="#services"><i class="fas fa-arrow-right"></i> services</a>
+            <a href="#featured"><i class="fas fa-arrow-right"></i> featured</a>
+            <a href="#reviews"><i class="fas fa-arrow-right"></i> reviews</a>
+            <a href="#contact"><i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +91 123 456 7890</a>
+            <a href="#"><i class="fas fa-phone"></i> +91 987 654 3210</a>
+            <a href="#" class="email"><i class="fas fa-envelope"></i> mitshah2406@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> mumbai, india - 400709</a>
+        </div>
+        <div class="box">
+            <h3>social media links</h3>
+            <a href="https://www.instagram.com/mitshah2406/"><i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.facebook.com/mit.shah.7798/"><i class="fab fa-facebook"></i> facebook</a>
+            <a href="https://github.com/Mitshah2406"><i class="fab fa-github"></i> github</a>
+            <a href="https://twitter.com/MitShah96118873"><i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://www.linkedin.com/in/mit-shah-76523a193/"><i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+    </div>
+    <h3 class="footer-end">created by <span>mit shah</span> all right reserved</h3>
+</section>
+<!-- -------------footer section end-------------------------------- -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
